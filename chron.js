@@ -1,7 +1,7 @@
 const { CronJob } = require('cron');
 const initiateTwilio = require('./reminders.js');
 
-const initiateTwilioJob = new CronJob('00 30 11 * * 0-6', function () {
+const initiateTwilioJob = new CronJob('00 00 14 * * 0-6', function () {
     /* Runs every day at 11:30:00 AM. */
     initiateTwilio()
 }, function () {
