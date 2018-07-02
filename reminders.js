@@ -22,7 +22,7 @@ const { messages } = require('twilio')(accountSid, authToken);
 const initiateTwilio = async() => {
     try {
         await auth.authorizeAsync();
-        const tomorrow = new Moment().add(4, 'days');
+        const tomorrow = new Moment().add(1, 'days');
         const { data: { items } } = await events.listAsync({
             auth,
             calendarId,
@@ -31,13 +31,13 @@ const initiateTwilio = async() => {
             timeMax: tomorrow.add(1, 'days').format(),
             orderBy: 'startTime'
         });
-
-        const twilioMessages = items.reduce((messages, { summary, description = '', attendees = [], start }) =>
+        const twilioMessages = items.reduce((messages, { summary, description = '', attendees = [], start: { dateTime } = {} }) =>
             messages.concat(attendees.map(({ email }) => ({ 
                 from: twilioPhone, 
-                body: `REMINDER: ${summary.trim()} at ${Moment(start).format('LLLL')} ${description}`, 
+                body: `REMINDER: ${summary.trim()} at ${Moment(dateTime).format('LLLL')} *${description}*`, 
                 to: `+1${contacts[email]}`
-            }))), [])
+            })
+        )), [])
         
         console.log(twilioMessages, 'this is twilio messages')
         const results = await mapSeries(twilioMessages, message => messages.create(message))
