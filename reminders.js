@@ -15,7 +15,7 @@ const contacts = require('./contacts');
 
 const { google: { calendar } } = require('googleapis');
 const { events } = calendar('v3');
-[events].forEach(promisifyAll(events));
+[events].forEach(promisifyAll);
 
 const { messages } = require('twilio')(accountSid, authToken);
 

@@ -2,7 +2,7 @@ require('dotenv').config()
 const { 
     client_email,
     private_key
-} = process.enc
+} = process.env
 const { google }  = require('googleapis');
 
 const helpers = {
