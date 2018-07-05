@@ -52,7 +52,5 @@ const initiateTwilio = async() => {
 
 }
 
-initiateTwilio()
-
 module.exports = initiateTwilio
 
