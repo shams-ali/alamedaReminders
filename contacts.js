@@ -1,3 +1,6 @@
+require('dotenv').config()
+const { TEST_EMAIL, TEST_PHONE } = process.env
+
 const contacts = {
     'simba94502@yahoo.com': '5103333387',
     'kiranmerchant@gmail.com': '3106225812',
@@ -10,8 +13,9 @@ const contacts = {
     'khadija.punjwani@yahoo.com': '9254948252',
     'simshamji@gmail.com': '4157220662',
     'spatel129@gmail.com': '2145364714',
-    'shams.ali0216@gmail.com': '3109537849',
-    'ali.s90@outlook.com': '3109537849'
+    'ali.s90@outlook.com': '3109537849',
+    'zain_jaffri@live.com': '3109890722',
+    [TEST_EMAIL]: TEST_PHONE
 }
 
 module.exports = contacts
