@@ -21,6 +21,7 @@ const { messages } = require('twilio')(accountSid, authToken);
 
 const initiateTwilio = async() => {
     try {
+        console.log('twilio initiated')
         await auth.authorizeAsync();
         const tomorrow = new Moment().add(1, 'days');
         const { data: { items } } = await events.listAsync({

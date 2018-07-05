@@ -4,6 +4,7 @@ const initiateTwilio = require('./reminders.js');
 const { CHRON_TIME } = process.env
 const initiateTwilioJob = new CronJob(CHRON_TIME, function () {
     /* Runs every day at 02:00:00 PM. */
+    console.log('initializeng twilio in chron')
     initiateTwilio()
 }, function () {
     /* This function is executed when the job stops */
