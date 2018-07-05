@@ -23,8 +23,9 @@ const initiateTwilio = async() => {
     try {
         console.log('twilio initiated')
         await auth.authorizeAsync();
+        console.log('authorized')
         const tomorrow = new Moment().add(1, 'days');
-        const { data: { items } } = await events.listAsync({
+        const { data: { items = [] } = {} } = await events.listAsync({
             auth,
             calendarId,
             singleEvents: true,
@@ -32,6 +33,7 @@ const initiateTwilio = async() => {
             timeMax: tomorrow.add(1, 'days').format(),
             orderBy: 'startTime'
         });
+        console.log(items, 'this is items')
         const twilioMessages = items.reduce((messages, { summary, description = '', attendees = [], start: { dateTime } = {} }) =>
             messages.concat(attendees.map(({ email }) => ({ 
                 from: twilioPhone, 
@@ -49,6 +51,8 @@ const initiateTwilio = async() => {
     }
 
 }
+
+initiateTwilio()
 
 module.exports = initiateTwilio
 

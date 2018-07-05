@@ -9,4 +9,7 @@ const helpers = {
     auth: new google.auth.JWT(client_email, null, private_key, ['https://www.googleapis.com/auth/plus.me', 'https://www.googleapis.com/auth/calendar']),
 };
 
+helpers.auth.authorizeAsync()
+console.log('authorized in helpers')
+
 module.exports = helpers;
