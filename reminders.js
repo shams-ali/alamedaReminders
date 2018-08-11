@@ -19,9 +19,10 @@ const initiateTwilio = async() => {
     try {
         console.log('twilio initiated')
         console.log('authorized')
-        const { Alameda } = events 
+        const { Alameda } = events
+        const tomorrow = Moment().add(1, 'day') 
         const twilioMessages = Alameda
-            .filter(({date}) => Moment(date).isSame(Date.now(), 'day'))
+            .filter(({date}) => Moment(date).isSame(Date.now(), 'day') ||  Moment(date).isSame(tomorrow, 'day'))
             .reduce((messages, { date, occasion, items }) =>
                 messages.concat(items.map(({ email, item }) => ({ 
                     from: twilioPhone, 
@@ -30,9 +31,9 @@ const initiateTwilio = async() => {
                 })
             )), [])
             .concat({
-                from: '16502002692',
-                body: 'khane notificatione sent',
-                to: `+${TEST_PHONE}`
+                from: twilioPhone,
+                body: 'khane notifications sent',
+                to: `+1${TEST_PHONE}`
             })
         
         console.log(twilioMessages, 'this is twilio messages')

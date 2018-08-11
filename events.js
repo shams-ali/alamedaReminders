@@ -39,7 +39,7 @@ const events = {
             occasion: 'Eid-e-Ghadir', 
             items: [
                 {email: 'zeenatboolani@yahoo.com', item: 'Alameda Khane - Sukhreet'},
-                {email: 'zeenatboolani@yahoo.com', item: 'Alameda Khane - Fruit/Milk'},
+                {email: 'zeenatboolani@yahoo.com', item: 'Alameda Khane - Fruit/Milk(1)'},
             ] 
         },
         {

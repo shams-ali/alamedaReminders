@@ -8,7 +8,7 @@ const contacts = {
     'naseemjaffer@gmail.com': '9253675615',
     'mackrehmat@gmail.com': '5107108221',
     'roshanbhatia@yahoo.com': '9252544844',
-    'zeenatboolani@yahoo.com': '5108437510',
+    'zeenatboolani@yahoo.com': '5108164585',
     'zuli_lalani@hotmail.com': '5108470800',
     'khadija.punjwani@yahoo.com': '9254948252',
     'simshamji@gmail.com': '4157220662',
