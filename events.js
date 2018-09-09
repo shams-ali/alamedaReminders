@@ -73,17 +73,6 @@ const events = {
       ]
     },
     {
-      date: '2018-09-09',
-      occasion: 'Test',
-      items: [
-        {
-          email: 'khadija.punjwani@yahoo.com',
-          item: 'Alameda Khane - Sukhreet'
-        },
-        { email: 'spatel129@gmail.com', item: 'Alameda Khane - Fruit/Milk' }
-      ]
-    },
-    {
       date: '2018-09-14',
       occasion: 'Students',
       items: [
