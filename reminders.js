@@ -23,7 +23,8 @@ const initiateTwilio = async() => {
         const { Alameda } = events
         const tomorrow = Moment().add(1, 'day') 
         const jamatiMessages = Alameda
-            .filter(({date}) => Moment(date).isSame(Date.now(), 'day') ||  Moment(date).isSame(tomorrow, 'day'))
+            .filter(({date}) => 
+                Moment(date).isSame(Date.now(), 'day') ||  Moment(date).isSame(tomorrow, 'day'))
             .reduce((buildJamatiMessages, { date, occasion, items }) =>
                 buildJamatiMessages.concat(items.map(({ email, item }) => ({ 
                     from: twilioPhone, 
