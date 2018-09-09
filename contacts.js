@@ -1,4 +1,5 @@
 require('dotenv').config()
+
 const { TEST_EMAIL, TEST_PHONE } = process.env
 
 const contacts = {
@@ -19,3 +20,17 @@ const contacts = {
 }
 
 module.exports = contacts
+
+/*
+Al Karim Premji		510 333 3387	simba94502@yahoo.com
+Kiran Merchant		310 622 5812	kiranmerchant@gmail.com
+Amina Dharani		661 330 7207	aminaramzan@gmail.com
+Naseem Jaffer		925 367 5615	naseemjaffer@gmail.com
+Rehmat Mackwani		510 710 8221	mackrehmat@gmail.com
+Roshan Bhatia		925 254 4844	roshanbhatia@yahoo.com
+Zeenat Boolani		510 843 7510	zeenatboolani@yahoo.com
+Zuli Lalani		510 847 0800	zuli_lalani@hotmail.com
+Khadija Panjwani		925 494 8252	khadija.punjwani@yahoo.com
+Simin Shamji		415 722 0662	simshamji@gmail.com
+Sunny Patel		214 536 4714	spatel129@gmail.com
+*/

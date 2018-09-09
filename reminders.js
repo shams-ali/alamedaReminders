@@ -1,3 +1,4 @@
+/* eslint no-console: ["error", { allow: ["warn", "error"] }] */
 require('dotenv').config();
 
 const {
@@ -9,40 +10,40 @@ const {
 
 const { mapSeries } = require('bluebird');
 const Moment = require('moment');
+const { messages } = require('twilio')(accountSid, authToken);
 
 const contacts = require('./contacts');
 const events = require('./events.js')
-const { messages } = require('twilio')(accountSid, authToken);
-console.log('hello world');
+
+const { assign } = Object
 
 const initiateTwilio = async() => {
     try {
-        console.log('twilio initiated')
-        console.log('authorized')
+        console.warn('twilio initiated')
         const { Alameda } = events
         const tomorrow = Moment().add(1, 'day') 
-        const twilioMessages = Alameda
+        const jamatiMessages = Alameda
             .filter(({date}) => Moment(date).isSame(Date.now(), 'day') ||  Moment(date).isSame(tomorrow, 'day'))
-            .reduce((messages, { date, occasion, items }) =>
-                messages.concat(items.map(({ email, item }) => ({ 
+            .reduce((buildJamatiMessages, { date, occasion, items }) =>
+                buildJamatiMessages.concat(items.map(({ email, item }) => ({ 
                     from: twilioPhone, 
                     body: `REMINDER: ${item} at ${Moment(date).format('LLLL')} *${occasion}*`, 
                     to: `+1${contacts[email]}`
                 })
             )), [])
-            .concat({
-                from: twilioPhone,
-                body: 'khane notifications sent',
-                to: `+1${TEST_PHONE}`
-            })
         
-        console.log(twilioMessages, 'this is twilio messages')
-        const results = await mapSeries(twilioMessages, message => messages.create(message))
-        console.log(results, 'this is results')
+        const adminMessage = jamatiMessages.length ? 
+            jamatiMessages.reduce((buildAdminMessage, { body, to }) => assign(buildAdminMessage, { 
+                body: `${buildAdminMessage.body} ${body} to: ${to};`
+            }), { from: twilioPhone, to: `+1${TEST_PHONE}`, body: ''}) 
+            : []
+        
+        console.warn(jamatiMessages.concat(adminMessage), 'twilio messages')
+        const results = await mapSeries(jamatiMessages, message => messages.create(message))
+        console.warn(results, 'this is results')
     } catch (error) {
         console.error('this is error', error);
     }
-
 }
 
 module.exports = initiateTwilio
