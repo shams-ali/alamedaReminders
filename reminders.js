@@ -5,7 +5,7 @@ const {
     TWILIO_ACCOUNT_SID: accountSid,
     TWILIO_AUTH_TOKEN: authToken,
     TWILIO_PHONE: twilioPhone,
-    TEST_PHONE
+    TEST_PHONE = '3109537849'
 } = process.env;
 
 const { mapSeries } = require('bluebird');
@@ -40,7 +40,7 @@ const initiateTwilio = async() => {
             : []
         
         console.warn(jamatiMessages.concat(adminMessage), 'twilio messages')
-        const results = await mapSeries(jamatiMessages, message => messages.create(message))
+        const results = await mapSeries(jamatiMessages.concat(adminMessage), message => messages.create(message))
         console.warn(results, 'this is results')
     } catch (error) {
         console.error('this is error', error);
