@@ -270,11 +270,11 @@ const events = {
       occasion: 'Friday',
       items: [
         {
-          email: '',
+          email: 'kiranmerchant@gmail.com',
           item: 'Alameda Khane - Sukhreet'
         },
         {
-          email: '',
+          email: 'mackrehmat@gmail.com',
           item: 'Alameda Khane - Fruit/Milk'
         }
       ]
@@ -284,11 +284,11 @@ const events = {
       occasion: 'Chandraat',
       items: [
         {
-          email: '',
+          email: 'khadija.punjwani@yahoo.com',
           item: 'Alameda Khane - Sukhreet'
         },
         {
-          email: '',
+          email: 'spatel129@gmail.com',
           item: 'Alameda Khane - Fruit/Milk'
         }
       ]
@@ -312,11 +312,11 @@ const events = {
       occasion: 'Friday',
       items: [
         {
-          email: '',
+          email: 'aminaramzan@gmail.com',
           item: 'Alameda Khane - Sukhreet'
         },
         {
-          email: '',
+          email: 'khadija.punjwani@yahoo.com',
           item: 'Alameda Khane - Fruit/Milk'
         }
       ]
@@ -326,12 +326,12 @@ const events = {
       occasion: 'Milad-e-Nabi',
       items: [
         {
-          email: '',
+          email: 'roshanbhatia@yahoo.com',
           item: 'Alameda Khane - Sukhreet'
         },
         {
-          email: '',
-          item: 'Alameda Khane - Fruit/Milk'
+          email: 'roshanbhatia@yahoo.com',
+          item: 'Alameda Khane - Fruit/Milk (1)'
         }
       ]
     },
@@ -340,11 +340,11 @@ const events = {
       occasion: 'Friday',
       items: [
         {
-          email: '',
+          email: 'kiranmerchant@gmail.com',
           item: 'Alameda Khane - Sukhreet'
         },
         {
-          email: '',
+          email: 'khadija.punjwani@yahoo.com',
           item: 'Alameda Khane - Fruit/Milk'
         }
       ]
@@ -354,11 +354,11 @@ const events = {
       occasion: 'Friday',
       items: [
         {
-          email: '',
+          email: 'zeenatboolani@yahoo.com',
           item: 'Alameda Khane - Sukhreet'
         },
         {
-          email: '',
+          email: 'zeenatboolani@yahoo.com',
           item: 'Alameda Khane - Fruit/Milk'
         }
       ]
@@ -368,11 +368,11 @@ const events = {
       occasion: 'Chandraat (Beej) (K)',
       items: [
         {
-          email: '',
+          email: 'mackrehmat@gmail.com',
           item: 'Alameda Khane - Sukhreet'
         },
         {
-          email: '',
+          email: 'spatel129@gmail.com',
           item: 'Alameda Khane - Fruit/Milk'
         }
       ]
@@ -382,11 +382,11 @@ const events = {
       occasion: 'Salgirah',
       items: [
         {
-          email: '',
+          email: 'khadija.punjwani@yahoo.com (6)',
           item: 'Alameda Khane - Sukhreet'
         },
         {
-          email: '',
+          email: 'khadija.punjwani@yahoo.com',
           item: 'Alameda Khane - Fruit/Milk'
         }
       ]
@@ -396,11 +396,11 @@ const events = {
       occasion: 'Students (K)',
       items: [
         {
-          email: '',
+          email: 'aminaramzan@gmail.com',
           item: 'Alameda Khane - Sukhreet'
         },
         {
-          email: '',
+          email: 'mackrehmat@gmail.com',
           item: 'Alameda Khane - Fruit/Milk'
         }
       ]
@@ -410,11 +410,11 @@ const events = {
       occasion: 'Friday',
       items: [
         {
-          email: '',
+          email: 'naseemjaffer@gmail.com',
           item: 'Alameda Khane - Sukhreet'
         },
         {
-          email: '',
+          email: 'naseemjaffer@gmail.com',
           item: 'Alameda Khane - Fruit/Milk'
         }
       ]
@@ -424,11 +424,11 @@ const events = {
       occasion: 'Friday',
       items: [
         {
-          email: '',
+          email: 'roshanbhatia@yahoo.com',
           item: 'Alameda Khane - Sukhreet'
         },
         {
-          email: '',
+          email: 'roshanbhatia@yahoo.com',
           item: 'Alameda Khane - Fruit/Milk'
         }
       ]
