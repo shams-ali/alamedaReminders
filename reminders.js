@@ -40,7 +40,10 @@ const initiateTwilio = async() => {
             : []
         
         console.warn(jamatiMessages.concat(adminMessage), 'twilio messages')
-        const results = await mapSeries(jamatiMessages.concat(adminMessage), message => messages.create(message))
+        const results = await mapSeries(
+            jamatiMessages.concat(adminMessage),
+            message => messages.create(message)
+        )
         console.warn(results, 'this is results')
     } catch (error) {
         console.error('this is error', error);

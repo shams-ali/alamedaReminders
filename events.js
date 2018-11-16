@@ -298,11 +298,11 @@ const events = {
       occasion: 'Students',
       items: [
         {
-          email: '',
+          email: 'aminaramzan@gmail.com',
           item: 'Alameda Khane - Sukhreet'
         },
         {
-          email: '',
+          email: 'khadija.punjwani@yahoo.com',
           item: 'Alameda Khane - Fruit/Milk'
         }
       ]
@@ -312,11 +312,11 @@ const events = {
       occasion: 'Friday',
       items: [
         {
-          email: 'aminaramzan@gmail.com',
+          email: 'naseemjaffer@gmail.com',
           item: 'Alameda Khane - Sukhreet'
         },
         {
-          email: 'khadija.punjwani@yahoo.com',
+          email: 'naseemjaffer@gmail.com',
           item: 'Alameda Khane - Fruit/Milk'
         }
       ]
