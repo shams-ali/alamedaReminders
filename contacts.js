@@ -16,12 +16,27 @@ const contacts = {
     'spatel129@gmail.com': '2145364714',
     'ali.s90@outlook.com': '3109537849',
     'zain_jaffri@live.com': '3109890722',
+    'gsp110@aol.com': '9254081047',
+    'alijankhwaja@hotmail.com': '7135174711',
     [TEST_EMAIL]: TEST_PHONE
 }
 
 module.exports = contacts
 
 /*
+Alnoor Koorji		925 528 9039	koorji@gmail.com
+Amina Dharani		661 330 7207	aminaramzan@gmail.com
+Naseem Jaffer		925 367 5615	naseemjaffer@gmail.com
+Rehmat Mackwani		510 710 8221	mackrehmat@gmail.com
+Roshan Bhatia		925 254 4844	roshanbhatia@yahoo.com
+Zeenat Boolani		510 843 7510	zeenatboolani@yahoo.com
+Khadija Panjwani		925 494 8252	khadija.punjwani@yahoo.com
+Gulshan Rowjani		925 408 1047	gsp110@aol.com
+Alijan Khwaja		713 517 4711	alijankhwaja@hotmail.com
+Simin Shamji		415 722 0662	simshamji@gmail.com
+Saira Shamji		510 417 6885	Saira.shamji@gmail.com
+Taher Paroo		214 725 3434	tahir.m.paroo@gmail.com
+
 Al Karim Premji		510 333 3387	simba94502@yahoo.com
 Kiran Merchant		310 622 5812	kiranmerchant@gmail.com
 Amina Dharani		661 330 7207	aminaramzan@gmail.com

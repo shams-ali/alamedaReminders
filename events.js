@@ -3,6 +3,64 @@ require('dotenv').config();
 const events = {
   Alameda: [
     {
+      date: '2019-01-04',
+      occasion: 'Friday',
+      items: [
+        { email: 'naseemjaffer@gmail.com', item: 'Alameda Khane - Sukhreet' },
+        { email: 'naseemjaffer@gmail.com', item: 'Alameda Khane - Fruit/Milk' }
+      ]
+    },
+    {
+      date: '2019-01-06',
+      occasion: 'Chandraat',
+      items: [
+        { email: 'gsp110@aol.com', item: 'Alameda Khane - Sukhreet' },
+        {
+          email: 'naseemjaffer@gmail.com',
+          item: 'Alameda Khane - Fruit/Milk (1) - Marmarin information is missing'
+        }
+      ]
+    },
+    {
+      date: '2019-01-11',
+      occasion: 'Students',
+      items: [
+        { email: 'aminaramzan@gmail.com', item: 'Alameda Khane - Sukhreet' },
+        {
+          email: 'alijankhwaja@hotmail.com',
+          item: 'Alameda Khane - Fruit/Milk'
+        }
+      ]
+    },
+    {
+      date: '2019-01-18',
+      occasion: 'Friday',
+      items: [
+        {
+          email: 'khadija.punjwani@yahoo.com',
+          item: 'Alameda Khane - Sukhreet'
+        },
+        {
+          email: 'khadija.punjwani@yahoo.com',
+          item: 'Alameda Khane - Fruit/Milk'
+        }
+      ]
+    },
+    {
+      date: '2019-01-25',
+      occasion: 'Friday',
+      items: [
+        { email: 'zeenatboolani@yahoo.com', item: 'Alameda Khane - Sukhreet' },
+        { email: 'zeenatboolani@yahoo.com', item: 'Alameda Khane - Fruit/Milk' }
+      ]
+    }
+  ]
+};
+
+
+/* const events = {
+  Alameda: [
+    {
       date: '2018-08-10',
       occasion: 'Friday',
       items: [
@@ -435,5 +493,7 @@ const events = {
     }
   ]
 };
+*/
+
 
 module.exports = events
