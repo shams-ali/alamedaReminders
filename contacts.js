@@ -17,6 +17,7 @@ const contacts = {
     'ali.s90@outlook.com': '3109537849',
     'zain_jaffri@live.com': '3109890722',
     'gsp110@aol.com': '9254081047',
+    'marmarinv@gmail.com': '5102204533',
     'alijankhwaja@hotmail.com': '7135174711',
     [TEST_EMAIL]: TEST_PHONE
 }

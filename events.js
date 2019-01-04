@@ -16,8 +16,9 @@ const events = {
       items: [
         { email: 'gsp110@aol.com', item: 'Alameda Khane - Sukhreet' },
         {
-          email: 'naseemjaffer@gmail.com',
-          item: 'Alameda Khane - Fruit/Milk (1) - Marmarin information is missing'
+          email: 'marmarinv@gmail.com',
+          item:
+            'Alameda Khane - Fruit/Milk (1)'
         }
       ]
     },
