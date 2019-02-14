@@ -26,28 +26,20 @@ module.exports = contacts
 
 /*
 Alnoor Koorji		925 528 9039	koorji@gmail.com
+Al Karim Premji		510 333 3387	simba94502@yahoo.com
+Alijan Khwaja		713 517 4711	alijankhwaja@hotmail.com
 Amina Dharani		661 330 7207	aminaramzan@gmail.com
+Gulshan Rowjani		925 408 1047	gsp110@aol.com
+Khadija Panjwani		925 494 8252	khadija.punjwani@yahoo.com
+Kiran Merchant		310 622 5812	kiranmerchant@gmail.com
+Marmarin         510 220 4533               marmarinv@gmail.com
 Naseem Jaffer		925 367 5615	naseemjaffer@gmail.com
 Rehmat Mackwani		510 710 8221	mackrehmat@gmail.com
 Roshan Bhatia		925 254 4844	roshanbhatia@yahoo.com
-Zeenat Boolani		510 843 7510	zeenatboolani@yahoo.com
-Khadija Panjwani		925 494 8252	khadija.punjwani@yahoo.com
-Gulshan Rowjani		925 408 1047	gsp110@aol.com
-Alijan Khwaja		713 517 4711	alijankhwaja@hotmail.com
-Simin Shamji		415 722 0662	simshamji@gmail.com
 Saira Shamji		510 417 6885	Saira.shamji@gmail.com
-Taher Paroo		214 725 3434	tahir.m.paroo@gmail.com
-Marmarin         510 220 4533               marmarinv@gmail.com
-
-Al Karim Premji		510 333 3387	simba94502@yahoo.com
-Kiran Merchant		310 622 5812	kiranmerchant@gmail.com
-Amina Dharani		661 330 7207	aminaramzan@gmail.com
-Naseem Jaffer		925 367 5615	naseemjaffer@gmail.com
-Rehmat Mackwani		510 710 8221	mackrehmat@gmail.com
-Roshan Bhatia		925 915 0746	roshanbhatia@yahoo.com
-Zeenat Boolani		510 843 7510	zeenatboolani@yahoo.com
-Zuli Lalani		510 847 0800	zuli_lalani@hotmail.com
-Khadija Panjwani		925 494 8252	khadija.punjwani@yahoo.com
 Simin Shamji		415 722 0662	simshamji@gmail.com
 Sunny Patel		214 536 4714	spatel129@gmail.com
+Taher Paroo		214 725 3434	tahir.m.paroo@gmail.com
+Zeenat Boolani		510 843 7510	zeenatboolani@yahoo.com
+Zuli Lalani		510 847 0800	zuli_lalani@hotmail.com
 */

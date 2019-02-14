@@ -28,7 +28,7 @@ const initiateTwilio = async() => {
             .reduce((buildJamatiMessages, { date, occasion, items }) =>
                 buildJamatiMessages.concat(items.map(({ email, item }) => ({ 
                     from: twilioPhone, 
-                    body: `REMINDER: ${item} at ${Moment(date).format('LLLL')} *${occasion}*`, 
+                    body: `*NO-REPLY* REMINDER: ${item} at ${Moment(date).format('LLLL')} *${occasion}*`, 
                     to: `+1${contacts[email]}`
                 })
             )), [])
