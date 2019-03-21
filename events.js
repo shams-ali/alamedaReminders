@@ -38,11 +38,47 @@ const events = {
       date: '2019-03-08',
       occasion: 'Friday',
       items: [
-        { email: 'khadija.punjwani@yahoo.com', item: 'Alameda Khane - Sukhreet' },
-        { email: 'khadija.punjwani@yahoo.com', item: 'Alameda Khane - Fruit/Milk' }
+        {
+          email: 'khadija.punjwani@yahoo.com',
+          item: 'Alameda Khane - Sukhreet'
+        },
+        {
+          email: 'khadija.punjwani@yahoo.com',
+          item: 'Alameda Khane - Fruit/Milk'
+        }
       ]
     },
+    {
+      date: '2019-03-21',
+      occasion: 'Navroz',
+      items: [
+        { email: 'aminaramzan@gmail.com', item: 'Alameda Khane - Sukhreet' },
+        { email: 'saira.shamji@gmail.com', item: 'Alameda Khane - Fruit/Milk' }
+      ]
+    },
+    {
+      date: '2019-03-22',
+      occasion: 'Friday',
+      items: [
+        {
+          email: 'khadija.punjwani@yahoo.com',
+          item: 'Alameda Khane - Sukhreet'
+        },
+        {
+          email: 'khadija.punjwani@yahoo.com',
+          item: 'Alameda Khane - Fruit/Milk'
+        }
+      ]
+    },
+    {
+      date: '2019-03-29',
+      occasion: 'Friday',
+      items: [
+        { email: 'zeenatboolani@yahoo.com', item: 'Alameda Khane - Sukhreet' },
+        { email: 'zeenatboolani@yahoo.com', item: 'Alameda Khane - Fruit/Milk' }
+      ]
+    }
   ]
 };
 
-module.exports = events
+module.exports = events;

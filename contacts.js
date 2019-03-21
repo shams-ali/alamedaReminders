@@ -1,28 +1,29 @@
-require('dotenv').config()
+require('dotenv').config();
 
-const { TEST_EMAIL, TEST_PHONE } = process.env
+const { TEST_EMAIL, TEST_PHONE } = process.env;
 
 const contacts = {
-    'simba94502@yahoo.com': '5103333387',
-    'kiranmerchant@gmail.com': '3106225812',
-    'aminaramzan@gmail.com': '6613307207',
-    'naseemjaffer@gmail.com': '9253675615',
-    'mackrehmat@gmail.com': '5107108221',
-    'roshanbhatia@yahoo.com': '9259150746',
-    'zeenatboolani@yahoo.com': '5108164585',
-    'zuli_lalani@hotmail.com': '5108470800',
-    'khadija.punjwani@yahoo.com': '9254948252',
-    'simshamji@gmail.com': '4157220662',
-    'spatel129@gmail.com': '2145364714',
-    'ali.s90@outlook.com': '3109537849',
-    'zain_jaffri@live.com': '3109890722',
-    'gsp110@aol.com': '9254081047',
-    'marmarinv@gmail.com': '5102204533',
-    'alijankhwaja@hotmail.com': '7135174711',
-    [TEST_EMAIL]: TEST_PHONE
-}
+  'ali.s90@outlook.com': '3109537849',
+  'alijankhwaja@hotmail.com': '7135174711',
+  'aminaramzan@gmail.com': '6613307207',
+  'gsp110@aol.com': '9254081047',
+  'khadija.punjwani@yahoo.com': '9254948252',
+  'kiranmerchant@gmail.com': '3106225812',
+  'mackrehmat@gmail.com': '5107108221',
+  'marmarinv@gmail.com': '5102204533',
+  'naseemjaffer@gmail.com': '9253675615',
+  'roshanbhatia@yahoo.com': '9259150746',
+  'saira.shamji@gmail.com': '5104176885',
+  'simba94502@yahoo.com': '5103333387',
+  'simshamji@gmail.com': '4157220662',
+  'spatel129@gmail.com': '2145364714',
+  'zain_jaffri@live.com': '3109890722',
+  'zeenatboolani@yahoo.com': '5108164585',
+  'zuli_lalani@hotmail.com': '5108470800',
+  [TEST_EMAIL]: TEST_PHONE
+};
 
-module.exports = contacts
+module.exports = contacts;
 
 /*
 Alnoor Koorji		925 528 9039	koorji@gmail.com
